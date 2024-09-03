@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="FontsReport" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30" uuid="8c1609b4-a52a-445f-acc9-69218b035b22">
+	<property name="net.sf.jasperreports.export.docx.embed.fonts" value="true"/>
+	<property name="net.sf.jasperreports.export.pptx.embed.fonts" value="true"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="NOME_PARLAMENTAR" class="java.lang.String"/>
+	<parameter name="NOME_CIVIL" class="java.lang.String"/>
+	<parameter name="GABINETE" class="java.lang.String"/>
+	<parameter name="CARTEIRA" class="java.lang.String">
+		<defaultValueExpression><![CDATA["-"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="CPF" class="java.lang.String"/>
+	<parameter name="TELEFONE" class="java.lang.String">
+		<defaultValueExpression><![CDATA["-"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="DATA_SOLICITACAO" class="java.lang.String"/>
+	<parameter name="INSTRUÇÃO_NORMATIVA_TCU" class="java.lang.String">
+		<defaultValueExpression><![CDATA["Instrução Normativa TCU nº 87, de 12 de agosto de 2020"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="LEI8.730 " class="java.lang.String">
+		<defaultValueExpression><![CDATA["Lei 8.730/1993."]]></defaultValueExpression>
+	</parameter>
+	<parameter name="LEI8.429" class="java.lang.String">
+		<defaultValueExpression><![CDATA["Lei 8.429/1992"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="BRASAO" class="java.lang.String"/>
+	<parameter name="EDOC" class="java.lang.String"/>
+	<parameter name="DIR" class="java.lang.String"/>
+	<parameter name="GENERO" class="java.lang.String"/>
+	<field name="Teste" class="java.lang.String"/>
+	<title>
+		<band height="610">
+			<staticText>
+				<reportElement x="50" y="365" width="481" height="28" uuid="21927bdf-7c16-4a8d-b201-596a81ccbfde"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[Legislação pertinente: Instrução Normativa TCU nº 87, de 12 de agosto de 2020]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="342" width="511" height="20" uuid="eb1a4d46-561c-4458-ada4-16dc0099ed64"/>
+				<box leftPadding="10">
+					<pen lineColor="#C7C5C5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[INFORMAÇÕES COMPLEMENTARES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="59" y="211" width="473" height="102" uuid="61d204b5-510c-4639-ab36-347836fc4ad8"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Autorizo o Tribunal de Contas da União (TCU) a ter acesso aos dados de bens e rendas das minhas Declarações de Ajuste Anual do Imposto de Renda Pessoa Física e das respectivas retificações apresentadas à Secretaria da Receita Federal do Brasil, para fins de cumprimento de exigências contidas no artigo 13 da Lei 8.429/1992, e no artigo 1º da Lei 8.730/1993. A autorização perderá o efeito sobre os exercícios subsequentes em que o parlamentar deixar de exercer o mandato.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="107" y="25" width="350" height="26" uuid="8d65a0ad-42fe-4763-aa8f-21d269498941"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+					<paragraph lineSpacing="Single" lineSpacingSize="0.2"/>
+				</textElement>
+				<text><![CDATA[CÂMARA DOS DEPUTADOS
+DEPARTAMENTO DE PESSOAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="20" y="84" width="512" height="42" backcolor="#BDBDBD" uuid="de8afcf1-8fe7-4f35-b162-f51bc11cadc3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineColor="#706F6F"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[AUTORIZAÇÃO DE ACESSO ÀS DECLARAÇÕES DE AJUSTE ANUAL DO IMPOSTO DE RENDA PESSOA FÍSICA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="126" width="512" height="20" uuid="1ff45ac9-e720-4f69-b577-5eec550bdd67">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box leftPadding="10">
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[IDENTIFICAÇÃO ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="146" width="100" height="20" uuid="e5408fe9-5d35-40bf-b8f4-fb76f9dbd0c3">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<box leftPadding="10">
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Nome Parlamentar: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="146" width="50" height="20" uuid="09aad384-dbd4-4fa0-84bb-f2bdace369a3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box leftPadding="10">
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Carteira: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="166" width="40" height="20" uuid="ca022e70-fa47-41c5-bf1b-94e34c2284f0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box leftPadding="10">
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[CPF: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="186" width="50" height="20" uuid="118bf189-6c52-41cb-8031-75402c5f5ce7">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box leftPadding="10">
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Telefone:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="166" width="60" height="20" uuid="b61e8458-47d3-45fa-9eba-a60ff20ca2cb"/>
+				<box leftPadding="10">
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Nome Civil:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="186" width="60" height="20" uuid="66d23cc6-71d7-4d05-a18c-3bfe5e8c1ec3"/>
+				<box leftPadding="10">
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Gabinete: ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="120" y="146" width="270" height="20" uuid="15070bb4-b570-42b5-8c6a-a59ad26e22d3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NOME_PARLAMENTAR}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="166" width="310" height="20" uuid="80e20c5c-f6f6-4840-99d4-927ec60a2f2e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NOME_CIVIL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="186" width="310" height="20" uuid="13f81edc-ccf2-402b-ace9-b5bd5d6aabfe">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GABINETE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="146" width="92" height="20" uuid="d7af6808-b6ae-4dd4-ad96-b64c0c562a3b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CARTEIRA}]]></textFieldExpression>
+				<patternExpression><![CDATA["-"]]></patternExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="166" width="102" height="20" uuid="894b47d4-b270-4ccc-8851-cba2f5ec8e17">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CPF}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="false">
+				<reportElement x="440" y="186" width="92" height="20" uuid="9fca2f3e-8b3d-4284-8ab3-4c41b670e0c8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{TELEFONE}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="59" y="301" width="473" height="21" uuid="9e4bc302-8e56-4034-9915-f3f707935186"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Essa autorização tem validade a partir de 01/02/2023.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="126" width="163" height="20" uuid="2614dae6-3d9f-40ae-b5dc-327c1e1e5c15"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$P{GENERO}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="41" y="13" width="70" height="57" uuid="ac2abda1-f047-4767-874e-5bd1bce10dc5">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["relatorios/img/brasao.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="50" y="409" width="481" height="51" uuid="cea042b5-62a1-4eea-8b49-d535af3602aa"/>
+				<textElement textAlignment="Left" verticalAlignment="Top"/>
+				<text><![CDATA[nos estandes de atendimento da SGM, localizados no Anexo IV da Câmara dos Deputados, ou enviada pelo correio para o endereço: Palácio do Congresso Nacional, Edifício Principal, Ala D, Térreo, sala 2.
+Brasília - DF - CEP 70160-900]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="50" y="394" width="481" height="14" uuid="67fcbd0e-953d-4de2-a55d-6cbc2283f27b"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Esta declaração deve ser assinada e entregue na Secretaria-Geral da Mesa (SGM)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="230" y="587" width="300" height="1" uuid="80b76501-dc16-4f67-ac39-81425b6095a1"/>
+			</line>
+			<textField>
+				<reportElement x="236" y="588" width="294" height="20" uuid="aafecf87-1d93-4c85-ac1f-56a9e7185c0c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{NOME_CIVIL}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="50" y="491" width="481" height="28" uuid="61b2f885-b564-45ee-8b4a-ac8a47fcee71"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<text><![CDATA[_____________________, _____ de _______________ de _______.]]></text>
+			</staticText>
+		</band>
+	</title>
+</jasperReport>
