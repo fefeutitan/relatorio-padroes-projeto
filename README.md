@@ -1,10 +1,10 @@
 
 # Entrega de projeto
 
-Design Patterns com Java: Dos Clássicos (GoF) ao Spring Framework
+Design Patterns com Java: Dos Clássicos (GoF) ao Spring Framework.
 
-Este projeto é um pedaço de um trabalho que eu fiz, 
-pra manter o foco adaptei para mostrar o uso do padrão de projetos strategy.
+Este projeto é um pedaço de um trabalho que eu fiz, pra manter o foco adaptei para mostrar o uso do padrão de projetos strategy.
+
 Não irá funcionar a ponto de exibis o relatório pdf, depois com calma posso rever o código para torná-lo funcional.
 
 A idéia é somente mostrar o uso do padrão pra facilitar a manutenção.
