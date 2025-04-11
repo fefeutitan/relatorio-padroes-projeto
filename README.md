@@ -1,13 +1,26 @@
 
-# Entrega de projeto
+# 📄 Projeto com Padrão Strategy + JasperReports
 
-- Design Patterns com Java: Dos Clássicos (GoF) ao Spring Framework.
+Este projeto demonstra a aplicação do padrão **Strategy** em Java e a geração de um **relatório PDF mockado** usando **JasperReports**.
 
-- Este projeto é um pedaço de um trabalho que eu fiz, pra manter o foco adaptei para mostrar o uso do padrão de projetos strategy.
+## 🛠️ Tecnologias
 
-- Não irá funcionar a ponto de exibir o relatório pdf, depois com calma posso rever o código para torná-lo funcional.
+- Java 8+
+- Maven
+- JasperReports
+- Padrões de Projeto (Strategy)
 
-- A idéia é somente mostrar o uso do padrão pra facilitar a manutenção.
+## 📎 Funcionalidades
+
+- Implementação didática do padrão Strategy
+- Geração de PDF com JasperReports (mockado)
+
+## 🧪 Como executar
+
+```bash
+mvn clean install
+java -cp target/classes com.seuusuario.relatorio.service.RelatorioService
+
 
 # fefeutitan
 
