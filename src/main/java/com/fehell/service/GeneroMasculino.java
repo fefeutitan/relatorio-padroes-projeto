@@ -1,9 +1,9 @@
-package service;
+package com.fehell.service;
 
 public class GeneroMasculino implements GeneroStrategy {
 
 	public String getMensagemContaBancaria() {
-        return "O Deputado indica conta bancária para crédito de valores referentes a reembolsos processados por meio da";
+        return "O Deputado indica conta bancï¿½ria para crï¿½dito de valores referentes a reembolsos processados por meio da";
 	}
 
 	public String getCasoGenero() {

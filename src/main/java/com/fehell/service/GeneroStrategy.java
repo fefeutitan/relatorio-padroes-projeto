@@ -1,4 +1,4 @@
-package service;
+package com.fehell.service;
 
 public interface GeneroStrategy {
     String getMensagemContaBancaria();

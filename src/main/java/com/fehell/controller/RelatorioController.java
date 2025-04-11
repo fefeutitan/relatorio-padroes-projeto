@@ -1,4 +1,4 @@
-package controller;
+package com.fehell.controller;
 
 
 import java.io.InputStream;
@@ -17,8 +17,8 @@ import net.sf.jasperreports.engine.JasperExportManager;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.engine.JasperReport;
-import service.GeneroStrategy;
-import service.GeneroStrategyFactory;
+import com.fehell.service.GeneroStrategy;
+import com.fehell.service.GeneroStrategyFactory;
 
 @RestController
 public class RelatorioController {

@@ -19,7 +19,7 @@ Este projeto demonstra a aplicação do padrão **Strategy** em Java e a geraç�
 
 ```bash
 mvn clean install
-java -cp target/classes com.seuusuario.relatorio.service.RelatorioService
+java -cp target/classes com.fehell.service.RelatorioService
 ```
 
 O PDF será gerado como `relatorio-gerado.pdf` no diretório raiz.
