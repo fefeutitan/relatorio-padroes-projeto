@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jasperReport PUBLIC "-//JasperReports//DTD Report Design//EN"
+"http://jasperreports.sourceforge.net/dtds/jasperreport.dtd">
+
+<jasperReport ...>
+    <detail>
+        <band height="50">
+            <staticText>
+                <reportElement x="0" y="10" width="300" height="30"/>
+                <textElement/>
+                <text><![CDATA[Relatório gerado com sucesso!]]></text>
+            </staticText>
+        </band>
+    </detail>
+</jasperReport>
